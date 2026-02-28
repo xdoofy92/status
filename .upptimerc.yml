@@ -1,4 +1,4 @@
-owner: xDoofy92
+owner: xdoofy92
 repo: status
 
 sites:
@@ -47,10 +47,10 @@ status-website:
     a:hover { color: #3094f2 !important; }
   favicon: https://xdoofy92.com/favicon.ico
   logoUrl: https://xdoofy92.com/favicon.ico
-  name: Status XD
+  name: Status
   introTitle: "Estado de **servicios** en tiempo real"
   navbar:
-    - title: Status XD
+    - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
