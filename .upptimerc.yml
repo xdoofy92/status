@@ -5,10 +5,6 @@ sites:
   - name: DProjects
     url: https://www.dprojects.org
 
-  - name: API DProjects
-    url: https://api.dprojects.org/api/ping
-    body: pong
-    
   - name: xdoofy92
     url: https://xdoofy92.com
     

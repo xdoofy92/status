@@ -1,6 +1,6 @@
 # [📈 Live Status](https://status.dprojects.org): <!--live status--> **🟩 Todos los sistemas en operación**
 
-Este repositorio contiene el monitor de disponibilidad y la página de estado open-source con [Upptime](https://upptime.js.org), basado en [Upptime](https://github.com/upptime/upptime).
+Este es un monitor de disponibilidad de sitios webs, es open-source con [Upptime](https://upptime.js.org).
 
 [![Uptime CI](https://github.com/xDoofy92/status/workflows/Uptime%20CI/badge.svg)](https://github.com/xDoofy92/status/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/xDoofy92/status/workflows/Response%20Time%20CI/badge.svg)](https://github.com/xDoofy92/status/actions?query=workflow%3A%22Response+Time+CI%22)

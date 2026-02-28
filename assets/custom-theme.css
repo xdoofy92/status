@@ -43,7 +43,25 @@
 /* Refuerzo de enlaces y elementos interactivos con el azul */
 a {
   color: #5aa5f5;
+  transition: color 0.2s ease;
 }
 a:hover {
   color: #3094f2;
+}
+
+/* Detalles opcionales: bordes suaves y transiciones */
+body {
+  font-smoothing: antialiased;
+}
+[class*="card"],
+[class*="nav"] {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+button,
+[role="button"] {
+  transition: background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+button:hover,
+[role="button"]:hover {
+  opacity: 0.95;
 }
