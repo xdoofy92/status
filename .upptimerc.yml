@@ -21,8 +21,8 @@ status-website:
   cname: status.xdoofy92.com
   favicon: https://xdoofy92.com/statusicon.svg
   logoUrl: https://xdoofy92.com/statusicon.svg
-  name: Doofy's Status
-  introTitle: "Estado de **Servicios** en tiempo real"
+  name: Status
+  introTitle: "Estado de **servicios** en tiempo real"
   navbar:
     - title: Status
       href: /

@@ -1,7 +1,7 @@
 ---
-name: Maintenance Event
-about: Schedule a work window
-title: "[Scheduled Maintenance] Site down for Maintenance"
+name: Evento de mantenimiento
+about: Programar una ventana de mantenimiento
+title: "[Mantenimiento programado] Sitio en mantenimiento"
 labels: maintenance
 assignees: ''
 
@@ -13,5 +13,5 @@ end: 2021-08-24T14:00:00.220Z
 expectedDown: google, hacker-news
 -->
 
-**Additional context**
-Who/what/when/where/why is this maintenance happening
+**Contexto adicional**
+Quién / qué / cuándo / dónde / por qué se realizará este mantenimiento.
