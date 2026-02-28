@@ -45,8 +45,8 @@ status-website:
     body { background-color: #0d1318 !important; color: #cacfdb !important; }
     a { color: #5aa5f5 !important; }
     a:hover { color: #3094f2 !important; }
-  favicon: https://xdoofy92.com/statusicon.svg
-  logoUrl: https://xdoofy92.com/statusicon.svg
+  favicon: https://xdoofy92.com/favicon.ico
+  logoUrl: https://xdoofy92.com/favicon.ico
   name: Status XD
   introTitle: "Estado de **servicios** en tiempo real"
   navbar:
