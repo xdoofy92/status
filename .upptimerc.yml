@@ -18,6 +18,7 @@ sites:
     
 status-website:
   theme: night
+  themeUrl: https://raw.githubusercontent.com/xDoofy92/status/HEAD/assets/custom-theme.css
   cname: status.xdoofy92.com
   favicon: https://xdoofy92.com/statusicon.svg
   logoUrl: https://xdoofy92.com/statusicon.svg
