@@ -47,10 +47,10 @@ status-website:
     a:hover { color: #3094f2 !important; }
   favicon: https://xdoofy92.com/statusicon.svg
   logoUrl: https://xdoofy92.com/statusicon.svg
-  name: Status
+  name: Status XD
   introTitle: "Estado de **servicios** en tiempo real"
   navbar:
-    - title: Status
+    - title: Status XD
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
