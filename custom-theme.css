@@ -1,0 +1,67 @@
+/*
+ * Tema personalizado Status — Colores: #0d1318, #cacfdb, #3094f2
+ * Variaciones para una UI atractiva y consistente.
+ */
+:root {
+  /* Fondos — base #0d1318 y variaciones */
+  --body-background-color: #0d1318;
+  --card-background-color: #131a21;
+  --nav-background-color: #0d1318;
+  --nav-border-bottom-color: #1e2832;
+  --card-border-color: #1e2832;
+
+  /* Texto — #cacfdb y variaciones */
+  --body-text-color: #cacfdb;
+  --tag-color: #131a21;
+
+  /* Acentos y estado “up” — #3094f2 y variaciones */
+  --nav-current-border-bottom-color: #3094f2;
+  --up-border-left-color: #3094f2;
+  --tag-up-background-color: #3094f2;
+
+  /* Estado down y degraded */
+  --down-border-left-color: #e85d6a;
+  --down-background-color: #2d1518;
+  --degraded-border-left-color: #e8b84d;
+  --tag-down-background-color: #e85d6a;
+  --tag-degraded-background-color: #e8b84d;
+  --change-background-color: #e8b84d;
+
+  /* Botones — azul principal */
+  --error-button-border-color: #2473c4;
+  --error-button-background-color: #3094f2;
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #2473c4;
+  --submit-button-background-color: #3094f2;
+  --submit-button-color: #ffffff;
+
+  /* Gráficos */
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+/* Refuerzo de enlaces y elementos interactivos con el azul */
+a {
+  color: #5aa5f5;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #3094f2;
+}
+
+/* Detalles opcionales: bordes suaves y transiciones */
+body {
+  font-smoothing: antialiased;
+}
+[class*="card"],
+[class*="nav"] {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+button,
+[role="button"] {
+  transition: background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+button:hover,
+[role="button"]:hover {
+  opacity: 0.95;
+}
