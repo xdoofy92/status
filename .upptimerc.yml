@@ -14,8 +14,37 @@ sites:
     
 status-website:
   theme: night
-  themeUrl: https://raw.githubusercontent.com/xDoofy92/status/HEAD/assets/custom-theme.css
   cname: status.xdoofy92.com
+  css: |
+    :root {
+      --body-background-color: #0d1318;
+      --card-background-color: #131a21;
+      --nav-background-color: #0d1318;
+      --nav-border-bottom-color: #1e2832;
+      --card-border-color: #1e2832;
+      --body-text-color: #cacfdb;
+      --tag-color: #131a21;
+      --nav-current-border-bottom-color: #3094f2;
+      --up-border-left-color: #3094f2;
+      --tag-up-background-color: #3094f2;
+      --down-border-left-color: #e85d6a;
+      --down-background-color: #2d1518;
+      --degraded-border-left-color: #e8b84d;
+      --tag-down-background-color: #e85d6a;
+      --tag-degraded-background-color: #e8b84d;
+      --change-background-color: #e8b84d;
+      --error-button-border-color: #2473c4;
+      --error-button-background-color: #3094f2;
+      --error-button-color: #ffffff;
+      --submit-button-border-color: #2473c4;
+      --submit-button-background-color: #3094f2;
+      --submit-button-color: #ffffff;
+      --graph-opacity: 1;
+      --graph-filter: none;
+    }
+    body { background-color: #0d1318 !important; color: #cacfdb !important; }
+    a { color: #5aa5f5 !important; }
+    a:hover { color: #3094f2 !important; }
   favicon: https://xdoofy92.com/statusicon.svg
   logoUrl: https://xdoofy92.com/statusicon.svg
   name: Status
